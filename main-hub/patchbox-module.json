@@ -1,0 +1,23 @@
+{
+    "name": "main hub",
+    "version": "0.0.1",
+    "description": "audio looper plus midi hub",
+    "author": "Hosie",
+    "launch_mode":"auto",
+    "depends_on": [
+        "jack.service",
+	{
+		"service":"amidiauto.service",
+		"config":"amidiauto.conf"
+	},
+        {
+            "service": "pisound-btn.service",
+            "config": "pisound-btn.conf"
+        }
+    ],
+    "services": [],
+    "scripts": {
+        "launch": "launch.sh"
+
+    }
+}

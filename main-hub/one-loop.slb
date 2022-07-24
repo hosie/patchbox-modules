@@ -1,0 +1,6 @@
+0 cc 1  hit redo 0  0 1  norm 0 127
+0 cc 2  hit overdub 0  0 1  norm 0 127
+0 cc 3  hit multiply 0  0 1  norm 0 127
+0 cc 4  hit reverse 0  0 1  norm 0 127
+0 cc 6  hit undo 0  0 1  norm 0 127
+0 cc 7  hit record 0  0 1  norm 0 127
