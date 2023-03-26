@@ -1,0 +1,7 @@
+[allow]
+Pure Data -> CASIO USB-MIDI MIDI 1
+Pico MIDI 1 -> Pure Data
+pisound MIDI PS-3GETMHC -> Pure Data
+[disallow]
+* <-> *
+
